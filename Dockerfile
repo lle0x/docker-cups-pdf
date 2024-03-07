@@ -1,4 +1,4 @@
-FROM ubuntu:17.10
+FROM ubuntu:23.10
 MAINTAINER Seung-Zin Nam "z.nam@envisia.de"
 
 RUN apt-get --quiet update && apt-get --quiet --assume-yes --allow-downgrades --allow-remove-essential --allow-change-held-packages dist-upgrade
